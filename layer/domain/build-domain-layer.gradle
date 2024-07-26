@@ -1,0 +1,26 @@
+plugins {
+    id "java"
+    id "application"
+}
+
+group = "op.neptun.poc.layer.domain"
+version = "0.0.1"
+
+// ---
+dependencies {
+    testImplementation(libs.junit.jupiter)
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+tasks.named('test', Test) {
+    useJUnitPlatform()
+}

@@ -1,0 +1,14 @@
+rootProject.name = "poc"
+
+include "layer:application"
+include "layer:domain"
+include "layer:integration"
+
+// Avoid phantom build directories by using ProjectDescriptor's.
+project(':layer:application').projectDir = file("layer/application")
+project(':layer:domain').projectDir = file("layer/domain")
+project(':layer:integration').projectDir = file("layer/integration")
+
+project(':layer:application').buildFileName = "build-application-layer.gradle"
+project(':layer:domain').buildFileName = "build-domain-layer.gradle"
+project(':layer:integration').buildFileName = "build-integration-layer.gradle"
