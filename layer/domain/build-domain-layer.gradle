@@ -3,7 +3,7 @@ plugins {
     id "application"
 }
 
-group = "op.neptun.poc.layer.domain"
+group = "flipcc.softwarearchitecturemaze.domain"
 version = "0.0.1"
 
 // ---

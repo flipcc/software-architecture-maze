@@ -1,4 +1,6 @@
-rootProject.name = "poc"
+rootProject.name = "software-architecture-maze"
+
+include "bootstrap"
 
 include "layer:application"
 include "layer:domain"

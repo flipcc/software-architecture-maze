@@ -1,4 +1,4 @@
-package op.neptun.poc;
+package flipcc.softwarearchitecturemaze.integration;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String index() {
-        return "Helloooo World!";
+        return "Hello World!";
     }
 }

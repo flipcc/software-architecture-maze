@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.spring.dependency.management)
 }
 
-group = "op.neptun.poc"
+group = "flipcc.softwarearchitecturemaze"
 version = "0.0.1"
 
 // ---
