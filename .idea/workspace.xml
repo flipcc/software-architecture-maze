@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15e8f56-8873-42be-b258-5cc748283732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layer/application/build-application-layer.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/layer/application/build-application-layer.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layer/domain/build-domain-layer.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/layer/domain/build-domain-layer.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layer/integration/build-integration-layer.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/layer/integration/build-integration-layer.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/op/neptun/poc/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/src/main/java/flipcc/softwarearchitecturemaze/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/op/neptun/poc/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/layer/integration/src/main/java/flipcc/softwarearchitecturemaze/integration/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
