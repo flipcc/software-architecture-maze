@@ -10,7 +10,7 @@ version = "0.0.1"
 
 // ---
 application {
-    mainClass = group + "." + "HelloApplication"
+    mainClass = group + "." + "App"
 }
 
 dependencies {
@@ -32,6 +32,6 @@ repositories {
     mavenCentral()
 }
 
-tasks.named('test', Test) {
+tasks.named("test", Test) {
     useJUnitPlatform()
 }

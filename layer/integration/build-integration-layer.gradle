@@ -11,6 +11,9 @@ version = "0.0.1"
 // ---
 dependencies {
     implementation(libs.spring.boot.starter.web)
+    implementation project(path: ':layer:application')
+    implementation project(path: ':layer:domain')
+    implementation project(path: ':layer:domain')
 
     testImplementation(libs.spring.boot.starter.test)
 }

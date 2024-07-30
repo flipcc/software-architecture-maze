@@ -1,6 +1,8 @@
 plugins {
     id "java"
     id "application"
+    alias(libs.plugins.spring.boot)
+    alias(libs.plugins.spring.dependency.management)
 }
 
 group = "flipcc.softwarearchitecturemaze.domain"
@@ -8,7 +10,10 @@ version = "0.0.1"
 
 // ---
 dependencies {
-    testImplementation(libs.junit.jupiter)
+    implementation(libs.spring.boot.starter.web)
+    implementation project(":layer:domain")
+
+    testImplementation(libs.spring.boot.starter.test)
 }
 
 java {
@@ -21,6 +26,6 @@ repositories {
     mavenCentral()
 }
 
-tasks.named('test', Test) {
+tasks.named("test", Test) {
     useJUnitPlatform()
 }

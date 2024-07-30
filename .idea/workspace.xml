@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15e8f56-8873-42be-b258-5cc748283732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layer/application/src/main/java/flipcc/softwarearchitecturemaze/application/ports/input/SolveMazeInputPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layer/application/src/main/java/flipcc/softwarearchitecturemaze/application/ports/output/SolveMazeOutputPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layer/application/src/main/java/flipcc/softwarearchitecturemaze/application/usecases/SolveMazeUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layer/domain/src/main/java/flipcc/softwarearchitecturemaze/domain/entities/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layer/integration/src/main/java/flipcc/softwarearchitecturemaze/integration/adapters/input/SolveMazeInputAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layer/integration/src/main/java/flipcc/softwarearchitecturemaze/integration/adapters/output/MazeOutputAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/src/main/java/flipcc/softwarearchitecturemaze/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/src/main/java/flipcc/softwarearchitecturemaze/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layer/application/build-application-layer.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/layer/application/build-application-layer.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layer/integration/build-integration-layer.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/layer/integration/build-integration-layer.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layer/integration/src/main/java/flipcc/softwarearchitecturemaze/integration/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sketch.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +43,21 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -70,6 +93,9 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bootstrap" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="flipcc.softwarearchitecturemaze.application.usecases" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +107,17 @@
       <updated>1721993432326</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "software-architecture-maze",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
